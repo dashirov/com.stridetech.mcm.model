@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.stridetech.mcm</groupId>
+    <artifactId>model</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <java.source>1.8</java.source>
+        <java.target>1.8</java.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+   <scm>
+        <connection>scm:git:https://github.com/dashirov/com.stridetech.mcm.model.git</connection>
+        <developerConnection>scm:git:https://github.com/dashirov/com.stridetech.mcm.model.git</developerConnection>
+        <url>https://github.com/dashirov/com.stridetech.mcm.model</url>
+        <tag>HEAD</tag>
+    </scm>
+
+
+    <repositories>
+        <repository>
+            <id>central-proxy</id>
+            <url>https://nexus.stridetech.com:443/repository/maven-public/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>https://nexus.stridetech.com:443/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <uniqueVersion>true</uniqueVersion>
+            <id>snapshots</id>
+            <url>https://nexus.stridetech.com:443/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+   <build>
+       <plugins>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-clean-plugin</artifactId>
+               <version>2.6.1</version>
+           </plugin>
+
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-compiler-plugin</artifactId>
+               <version>3.3</version>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-surefire-plugin</artifactId>
+               <version>2.18.1</version>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-install-plugin</artifactId>
+               <version>2.5.2</version>
+           </plugin>
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-site-plugin</artifactId>
+               <version>3.5.1</version>
+           </plugin>
+
+               <plugin>
+                   <groupId>external.atlassian.jgitflow</groupId>
+                   <artifactId>jgitflow-maven-plugin</artifactId>
+                   <version>1.0-m5.1</version>
+                   <configuration>
+                       <!-- see goals wiki page for configuration options -->
+                   </configuration>
+               </plugin>
+
+       </plugins>
+   </build>
+    <packaging>jar</packaging>
+    <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.10</version>
+                <scope>provided</scope>
+            </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>15.0</version>
+        </dependency>
+    </dependencies>
+</project>

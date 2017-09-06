@@ -1,8 +1,5 @@
 package com.stridetech.mcm.model.logs;
 
-/**
- * Created by VS on 6/14/2017.
- */
 import com.stridetech.mcm.model.meta.UploadLog;
 
 import java.util.Comparator;

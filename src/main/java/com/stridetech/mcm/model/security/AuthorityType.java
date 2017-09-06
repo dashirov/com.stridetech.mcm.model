@@ -1,8 +1,5 @@
 package com.stridetech.mcm.model.security;
 
-/**
- * Created by VS on 7/24/2017.
- */
 public class AuthorityType {
 
     public static final String ADMIN = "admin";

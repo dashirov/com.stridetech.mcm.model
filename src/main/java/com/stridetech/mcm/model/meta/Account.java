@@ -8,9 +8,6 @@ import java.util.SortedSet;
 
 import lombok.EqualsAndHashCode;
 
-/**
- * Created by dashirov on 11/17/16.
- */
 @EqualsAndHashCode(exclude={"id"})
 public class Account {
     private Long id;

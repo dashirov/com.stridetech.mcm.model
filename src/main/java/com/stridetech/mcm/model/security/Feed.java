@@ -3,9 +3,6 @@ package com.stridetech.mcm.model.security;
 import lombok.EqualsAndHashCode;
 import org.jetbrains.annotations.NotNull;
 
-/**
- * Created by VS on 5/31/2017.
- */
 @EqualsAndHashCode(exclude={"id"})
 public class Feed {
 

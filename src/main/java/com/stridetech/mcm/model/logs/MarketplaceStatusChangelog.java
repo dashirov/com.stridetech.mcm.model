@@ -4,9 +4,6 @@ import com.stridetech.mcm.model.enums.MarketplaceStatus;
 
 import java.util.Date;
 
-/**
- * Created by dashirov on 11/18/16.
- */
 public class MarketplaceStatusChangelog {
     MarketplaceStatus defaultValue = MarketplaceStatus.PAUSED;
 

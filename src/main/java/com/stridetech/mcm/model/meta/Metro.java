@@ -2,9 +2,6 @@ package com.stridetech.mcm.model.meta;
 
 import lombok.EqualsAndHashCode;
 
-/**
- * Created by dashirov on 11/17/16.
- */
 @EqualsAndHashCode(exclude={"id"})
 public class Metro {
     private Long id;

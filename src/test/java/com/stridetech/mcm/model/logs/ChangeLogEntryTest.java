@@ -1,7 +1,4 @@
 package com.stridetech.mcm.model.logs;
-/**
- * Created by dashirov on 11/18/16.
- */
 
 import org.junit.*;
 

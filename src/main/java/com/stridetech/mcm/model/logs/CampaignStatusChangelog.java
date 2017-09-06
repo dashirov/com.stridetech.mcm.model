@@ -3,10 +3,6 @@ package com.stridetech.mcm.model.logs;
 import com.stridetech.mcm.model.enums.CampaignStatus;
 
 import java.util.Date;
-
-/**
- * Created by dashirov on 11/18/16.
- */
 public class CampaignStatusChangelog {
     CampaignStatus defaultValue = CampaignStatus.PAUSED;
 

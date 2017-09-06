@@ -5,9 +5,6 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-/**
- * Created by VS on 6/5/2017.
- */
 
 @EqualsAndHashCode(exclude={"id"})
 public class User {

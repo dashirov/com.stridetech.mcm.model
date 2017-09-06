@@ -6,9 +6,6 @@ import com.stridetech.mcm.model.enums.TagType;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-/**
- * Created by dashirov on 11/17/16.
- */
 @EqualsAndHashCode(exclude={"id"})
 public class TagGroup {
     private Long id;

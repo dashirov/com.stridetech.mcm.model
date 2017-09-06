@@ -8,9 +8,6 @@ import java.util.Date;
 
 import lombok.EqualsAndHashCode;
 
-/**
- * Created by dashirov on 11/17/16.
- */
 @EqualsAndHashCode(exclude={"id"})
 public class Marketplace {
     @Nullable

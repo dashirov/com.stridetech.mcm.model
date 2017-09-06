@@ -4,9 +4,6 @@ import lombok.EqualsAndHashCode;
 
 import java.util.Date;
 
-/**
- * Created by VS on 5/31/2017.
- */
 @EqualsAndHashCode(exclude={"id"})
 public class UploadLog {
     private Long uploadtypeID;

@@ -4,9 +4,6 @@ import com.stridetech.mcm.model.enums.ProductStatus;
 
 import java.util.Date;
 
-/**
- * Created by dashirov on 11/18/16.
- */
 public class ProductStatusChangelog {
     ProductStatus defaultValue = ProductStatus.PAUSED;
 

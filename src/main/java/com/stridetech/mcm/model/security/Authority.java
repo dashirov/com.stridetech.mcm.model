@@ -2,9 +2,6 @@ package com.stridetech.mcm.model.security;
 
 import org.jetbrains.annotations.NotNull;
 
-/**
- * Created by VS on 6/5/2017.
- */
 public class Authority {
 
 

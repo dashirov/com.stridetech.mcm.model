@@ -3,9 +3,6 @@ package com.stridetech.mcm.model.stats;
 import java.time.LocalDateTime;
 import java.util.SortedSet;
 
-/**
- * Created by dashirov on 11/17/16.
- */
 public class AcquisitionGuidance {
     private Integer id;
     private String productCode;

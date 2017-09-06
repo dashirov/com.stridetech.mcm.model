@@ -1,10 +1,5 @@
 package com.stridetech.mcm.model.logs;
-
 import java.util.Date;
-
-/**
- * Created by dashirov on 11/18/16.
- */
 public class CampaignPriceChangelog {
     Double defaultValue = 0.0;
 

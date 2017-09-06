@@ -1,18 +1,9 @@
 package com.stridetech.mcm.model.logs;
 
-/**
- * Created by dashirov on 11/18/16.
- */
-
 import java.util.Date;
 import java.util.SortedSet;
 import java.util.TreeSet;
 import java.util.function.Predicate;
-
-
-/**
- * Created by dashirov on 10/17/16.
- */
 public class ChangeLog<T> {
     private SortedSet<ChangeLogEntry<T>> changeLog = new TreeSet<>(new ChangeLogEntryComparator());
 
